@@ -10,7 +10,7 @@ flowchart TB
   %% Frontend
   subgraph Frontend
       A[End User / Browser]
-      B[Chat UI Web App (S3/CloudFront)]
+      B[Chat UI Web App - S3/CloudFront]
       X[Admin Web App]
       A --> B
       X --> Y[Content Upload Lambda]
